@@ -1,0 +1,129 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="meeda">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rayan Suliman</title>
+<meta name="description" content="  Rayan Suliman CV's"/>
+<link rel="icon" type="" href="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="timeline.css">
+<link rel="icon" type="image/png" href="files/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+  <!-- Modify the following script for coloring the selected menu item -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all menu items
+      const menuItems = document.querySelectorAll('.menu a');
+  
+      // Add click event listener to each menu item
+      menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+          // Remove 'active' class from all menu items
+          menuItems.forEach(item => {
+            item.classList.remove('active');
+          });
+  
+          // Add 'active' class to the clicked menu item
+          this.classList.add('active');
+        });
+      });
+  
+      // Set the initial active menu item based on the current page
+      const path = window.location.pathname;
+      const currentPage = path.substring(path.lastIndexOf('/') + 1);
+      
+      menuItems.forEach(item => {
+        const href = item.getAttribute('href');
+        if (currentPage === href || (currentPage === "" && href === "index.html")) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="black-overlay">
+
+    <header class="head">
+        <a href="index.html"><img src="files/logo.png" alt="logo"></a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="letstalk">Let's talk</a>
+
+      </header>
+
+
+  <div class="sections">
+
+    <div class="headtext">
+        <p>Let's Work <span>Togather</span>  </p>
+    </div>
+
+    <div class="contact">
+
+        <div class="contact1">
+            <i class="fa-solid fa-envelope fa-2xl" style="color: #525252;"></i>
+            <h2>loodxloodx@gmail.com</h2>
+            <a target="_blank" class="code" href="mailto:loodxloodx@gmail.com"> email me </a>
+
+        </div>
+
+        <div class="contact1">
+            <i class="fa-solid fa-phone fa-2xl" style="color: #525252;"></i>
+            <h2>+966 58 128 7867</h2>
+            <a target="_blank" class="code" href="https://wa.me/+966581287867">Whatsapp</a>
+        </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <div class="branches">
+    <div class="headtext letswork1">
+      <p class="letswork">Let's Work <span>Togather</span>  </p>
+  </div>
+
+  <div class="contact">
+
+      <div class="contact1">
+          <i class="fa-solid fa-envelope fa-2xl" style="color: #525252;"></i>
+          <h2>loodxloodx@gmail.com</h2>
+          <a target="_blank" class="code" href="mailto:loodxloodx@gmail.com"> email me </a>
+
+      </div>
+
+      <div class="contact1">
+          <i class="fa-solid fa-phone fa-2xl" style="color: #525252;"></i>
+          <h2>+966 58 128 7867</h2>
+          <a target="_blank" class="code" href="https://wa.me/+966581287867">Whatsapp</a>
+      </div>
+
+  </div>
+  </div>
+    <footer>
+      <p>© All rights reserved by <a href="index.html">rayansily</a></p>
+  </footer>
+</div>
+</body>
+
+<script src="script.js"></script>
+
+

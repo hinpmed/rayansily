@@ -1,0 +1,187 @@
+.sections{
+    margin: 1em 5em;
+}
+
+.ext, .last {
+    height: 13em;
+    width: 64em;
+    
+}
+.edu1{
+    height: 15em;
+    width: 32em;
+}
+.ext p{
+    padding: 1em;
+    text-align: center;
+}
+
+.exd , .edr, .projects {
+    height: 13em;
+    width: 32em;
+}
+.exd p span, .Bachelor {
+    color: #5d7bf6;
+}
+.up p{
+    font-size: 2em;
+}
+.edr , .projects{
+    padding-top: 0;
+    margin: 0;
+}
+.down p{
+
+    margin: 0.2em;
+}
+.last p{
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 40px;
+}
+.last p span, .down li{
+    color: #5d7bf6;
+}
+
+.edf{
+    height: 40em;
+    width: 39em;
+    padding-top: 0;
+    margin: 0;
+}
+
+.down p ,li{
+    padding-left: 1.3em;
+}
+.down p{
+    padding-left: 2.6em;
+}
+
+.edff{
+    width: 25em;
+    height: 40em ;
+    padding-top: 0;
+}
+.projects .up p{
+    text-align: center;
+}
+
+
+
+
+.project1 img{
+    width: 3em;
+}
+.project1 p{
+    font-size: 0.9em;
+}
+.proj{
+    width: 64em;
+    display: flex;
+    align-items: center;
+}
+.imgdiv img{
+    width: 8em;
+}
+.textdiv h1{
+    font-size: 1.3em;
+}
+.tools img{
+    width: 2em;
+}
+.tools{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.code{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, #1693fa 0%, #3159fc 100%);
+    direction: rtl;
+}
+.code {
+    text-decoration: none;
+    font-weight: 200;
+  }
+  .code {
+    padding: 0.3em 1.1em;
+    border-radius: 1em;
+    transition: 0.3s;
+  }
+  .code:hover {
+    background-color: white;
+    color: #323232;
+  }
+    .headtext p span{color: #5d7bf6;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+  }
+
+.contact1{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4{
+    display: flex;
+    flex-grow: 1;
+}
+@media (max-width: 750px) {
+
+    
+    .theheadtext{
+        font-size: 0.8em;
+      }
+
+
+    .thesecondtext{
+        font-size: 0.4em;
+        margin: 0 6em;
+    }
+
+    .headtext2{
+        padding: 0 1em;
+    }
+
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8em;
+        margin-bottom: 5em;
+      }
+
+      header ul li {
+        margin: 0em;
+        padding: 0;
+      }
+}
+
+
+@media (max-width: 1050px) {
+    .head{
+      margin-top: 2em;
+    }
+
+
+    .ext{
+        width: 47.3em;
+        height:fit-content;
+    }
+
+    .edff , .edf{
+        height: fit-content;
+    }
+}

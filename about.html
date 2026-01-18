@@ -1,0 +1,402 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="meeda">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rayan Suliman</title>
+<meta name="description" content="  Rayan Suliman CV's"/>
+<link rel="icon" type="" href="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="timeline.css">
+<link rel="icon" type="image/png" href="files/logo.png">
+
+
+  <!-- Modify the following script for coloring the selected menu item -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all menu items
+      const menuItems = document.querySelectorAll('.menu a');
+  
+      // Add click event listener to each menu item
+      menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+          // Remove 'active' class from all menu items
+          menuItems.forEach(item => {
+            item.classList.remove('active');
+          });
+  
+          // Add 'active' class to the clicked menu item
+          this.classList.add('active');
+        });
+      });
+  
+      // Set the initial active menu item based on the current page
+      const path = window.location.pathname;
+      const currentPage = path.substring(path.lastIndexOf('/') + 1);
+      
+      menuItems.forEach(item => {
+        const href = item.getAttribute('href');
+        if (currentPage === href || (currentPage === "" && href === "index.html")) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="black-overlay">
+
+    <header class="head">
+        <a href="index.html"><img src="files/logo.png" alt="logo"></a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="letstalk">Let's talk</a>
+
+      </header>
+
+
+  <div class="sections">
+
+    <div class="headtext">
+    <p>Rayan Suliman</p>
+    <p class="self">Self-Summary</p>
+    </div>
+    
+    <div class="section4">
+        <div class="ext">
+
+          <p>full-stack web developer and a versatile designer proficient in Photoshop, Canva, and various other design applications. My professional journey has led me through diverse fields, providing me with a broad spectrum of experiences and skills. Born and raised in the historic city of Medina, Saudi Arabia, my roots have instilled in me a rich cultural heritage. As a developer, I thrive on creating seamless and engaging web experiences, while my design expertise allows me to bring ideas to life visually. My journey has equipped me with adaptability, a keen eye for detail, and a passion for both the technical and creative aspects of my work.</p>
+
+        </div>
+    
+      </div>
+
+
+
+
+
+      <div class="section3">
+        <div class="exd">
+        <p>Date of Birth: <span>1998/06/26</span>  </p>
+        <p>Address: <span>Bani Hareth Dist, Medina, Saudi Arabia</span>  </p>
+        <p>Nationalty: <span>Pakistani</span>  </p>
+        <p>Languages Speaking: <span>English & Arabic fluently</span>  </p>
+
+
+        </div>
+    
+        <div class="edr">
+            <div class="up">
+                <p>Education</p>
+            </div>
+            <div class="down">
+                <p>SAUDI ELECTRONIC UNIVERSITY</p>
+                <p class="Bachelor">Bachelor in IT</p>
+                <p>2021 - still</p>
+            </div>
+    
+
+    
+        </div>
+      </div>
+    
+      <div class="section3">
+        
+        <div class="edff">
+            <div class="up">
+                <p>Experience</p>
+            </div>
+            <div class="down">
+                <li>IT-MARKETING- Designer</li>
+                <p>Ghaith Alshifa Medical  Co.</p>
+                <p>06/2022 till still working</p>
+                <br>
+                <li>General Supervisor</li>
+                <p>Green Grove Soil Factory</p>
+                <p>10/2019 till 12/2021</p>
+                <br>
+                <li>General Supervisor</li>
+                <p>Safeer Almutajirah</p>
+                <p>10/2017 till 09/2019</p>
+            </div>
+            <div class="up">
+                <p>Skills</p>
+            </div>
+            <div >
+                <li>Python</li>
+                <br>
+                <li>HTML - CSS - JS</li>
+                <br>
+                <li>Designing</li>
+                <br>
+                <li>DataBase</li>
+            </div>
+            
+    
+        </div>
+    
+        <div class="edf">
+            <div class="up">
+                <p>Courses</p>
+            </div>
+            <div class="down">
+                <li>Python Basics</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Python Classes and Inheritance</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Python Functions, Files, and Dictionaries</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Data Collection and Processing with Python</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Linear Algebra for Machine Learning and Data Science</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Calculus for Machine Learning and Data Science</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Probability & Statistics for Machine Learning & Data Science</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>English Advanced Course</li>
+                <p>English and Chinese center</p>
+
+            </div>
+    
+
+    
+        </div>
+      </div>
+
+
+      <div class="section3">
+        <div class="projects">
+            <div class="up">
+                <p>Projects</p>
+            </div>
+        <div class="downprojects">
+            <div class="project1">
+                <img src="files/small-logo.png" alt="">
+                <p> Realestate  system</p>
+            </div>
+            <div class="project1">
+                <img src="files/ghaith.png" alt="">
+                <p>Medical webapp </p>
+            </div>
+            <div class="project1">
+                <img src="files/logo.png" alt="">
+                <p>Personal website </p>
+            </div>
+        </div>
+
+        </div>
+    
+        <div class="edu">
+          <img class="icon2" src="files/icon2.png" alt="">
+          <div class="morediv addpadding">
+            <div class="thetwotext " ">
+              <p>Let's <br> Work <span>Togather</span> </p>
+            </div>
+            <div class="morebuttondiv" style="padding-top: 30px;">
+              <a style="margin-right: 30PX;" class="morebutton paddingclass" href="contact.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+
+    
+        </div>
+      </div>
+
+
+      
+  </div>
+
+
+
+
+<div class="branches">
+
+
+    <div class="headtext">
+    <p>Rayan Suliman</p>
+    <p class="self">Self-Summary</p>
+    </div>
+    
+    <div class="aboutdiv">
+
+          <p>full-stack web developer and a versatile designer proficient in Photoshop, Canva, and various other design applications. My professional journey has led me through diverse fields, providing me with a broad spectrum of experiences and skills. Born and raised in the historic city of Medina, Saudi Arabia, my roots have instilled in me a rich cultural heritage. As a developer, I thrive on creating seamless and engaging web experiences, while my design expertise allows me to bring ideas to life visually. My journey has equipped me with adaptability, a keen eye for detail, and a passion for both the technical and creative aspects of my work.</p>
+    
+      </div>
+
+
+
+
+
+      <div class="aboutdiv">
+        <p>Date of Birth: <span class="coloring">1998/06/26</span>  </p>
+        <p>Address: <span class="coloring">Bani Hareth Dist, Medina, Saudi Arabia</span>  </p>
+        <p>Nationalty: <span class="coloring">Pakistani</span>  </p>
+        <p>Languages Speaking: <span class="coloring">English & Arabic fluently</span>  </p>
+
+
+      </div>
+    
+
+      <div class="aboutdiv">
+    
+            <div class="up">
+                <p>Education</p>
+            </div>
+            <div class="down">
+                <p>SAUDI ELECTRONIC UNIVERSITY</p>
+                <p class="Bachelor">Bachelor in IT</p>
+                <p>2021 - still</p>    
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="aboutdiv">
+        
+            <div class="up">
+                <p>Experience</p>
+            </div>
+            <div class="down">
+                <li>IT-MARKETING- Designer</li>
+                <p>Ghaith Alshifa Medical  Co.</p>
+                <p>06/2022 till still working</p>
+                <br>
+                <li>General Supervisor</li>
+                <p>Green Grove Soil Factory</p>
+                <p>10/2019 till 12/2021</p>
+                <br>
+                <li>General Supervisor</li>
+                <p>Safeer Almutajirah</p>
+                <p>10/2017 till 09/2019</p>
+            </div>
+            <div class="up">
+                <p>Skills</p>
+            </div>
+            <div >
+                <li>Python</li>
+                <br>
+                <li>HTML - CSS - JS</li>
+                <br>
+                <li>Designing</li>
+                <br>
+                <li>DataBase</li>
+            </div>
+            
+    
+        </div>
+    
+
+
+      <div class="aboutdiv ">
+  
+    
+            <div class="up">
+                <p>Courses</p>
+            </div>
+            <div class="down ">
+                <li>Python Basics</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Python Classes and Inheritance</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Python Functions, Files, and Dictionaries</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Data Collection and Processing with Python</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Linear Algebra for Machine Learning and Data Science</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Calculus for Machine Learning and Data Science</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>Probability & Statistics for Machine Learning & Data Science</li>
+                <p>University of Michigan</p>
+                <br>
+                <li>English Advanced Course</li>
+                <p>English and Chinese center</p>
+
+            </div>
+    
+
+    
+      </div>
+
+
+
+
+      <div class="aboutdiv">
+            <div class="up">
+                <p>Projects</p>
+            </div>
+        <div class="downprojects">
+            <div class="project1">
+                <img src="files/small-logo.png" alt="">
+                <p> Realestate  system</p>
+            </div>
+            <div class="project1">
+                <img src="files/ghaith.png" alt="">
+                <p>Medical webapp </p>
+            </div>
+            <div class="project1">
+                <img src="files/logo.png" alt="">
+                <p>Personal website </p>
+            </div>
+        </div>
+
+    
+      </div>
+
+
+      <div>
+        <div class="edu">
+          <img class="icon2" src="files/icon2.png" alt="">
+          <div class="morediv addpadding">
+            <div class="thetwotext2 " ">
+              <p>Let's <br> Work <span>Togather</span> </p>
+            </div>
+            <div class="morebuttondiv" style="padding-top: 30px;">
+              <a style="margin-right: 65PX;" class="morebutton paddingclass" href="contact.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+    
+    
+        </div>
+    </div>
+
+
+      
+
+
+</div>
+
+
+    <footer>
+      <p>© All rights reserved by <a href="index.html">rayansily</a></p>
+  </footer>
+</div>
+</body>
+
+<script src="script.js"></script>
+
+

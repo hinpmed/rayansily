@@ -1,0 +1,270 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="meeda">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rayan Suliman</title>
+<meta name="description" content="  Rayan Suliman CV's"/>
+<link rel="icon" type="" href="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="timeline.css">
+<link rel="icon" type="image/png" href="files/logo.png">
+
+
+  <!-- Modify the following script for coloring the selected menu item -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all menu items
+      const menuItems = document.querySelectorAll('.menu a');
+  
+      // Add click event listener to each menu item
+      menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+          // Remove 'active' class from all menu items
+          menuItems.forEach(item => {
+            item.classList.remove('active');
+          });
+  
+          // Add 'active' class to the clicked menu item
+          this.classList.add('active');
+        });
+      });
+  
+      // Set the initial active menu item based on the current page
+      const path = window.location.pathname;
+      const currentPage = path.substring(path.lastIndexOf('/') + 1);
+      
+      menuItems.forEach(item => {
+        const href = item.getAttribute('href');
+        if (currentPage === href || (currentPage === "" && href === "index.html")) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="black-overlay">
+
+    <header class="head">
+        <a href="index.html"><img src="files/logo.png" alt="logo"></a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="letstalk">Let's talk</a>
+
+      </header>
+
+
+  <div class="sections">
+
+    <div class="headtext">
+    <p>Projects</p>
+    <p class="self">Every Project is linked to the website or to the github page</p>
+    </div>
+
+      <div class="section3">
+        <div class="proj">
+
+            <div class="imgdiv">
+                <img src="files/small-logo.png" alt="">
+            </div>
+
+            <div class="textdiv">
+                <h1>Realestate Mangment System</h1>
+                <p>The Real Estate Management System (REMS) is a user-friendly web application designed for efficient real estate property management. With secure user authentication and role-based access, REMS enables users to manage customers, buildings, units, and contracts seamlessly. The system supports CRUD operations for easy addition, modification, and deletion of records, ensuring an up-to-date and dynamic database. Key features include transaction history tracking, reporting tools, notification alerts, and robust security measures. REMS is a comprehensive solution for real estate professionals, providing transparency, analytics, and streamlined operations throughout the entire real estate transaction lifecycle.</p>
+                <div class="tools">
+                    <img src="files/PYTHON.png" alt="PYTHON">
+                    <img src="files/django-logo-negative.png" alt="django">
+                    <img src="files/html.png" alt="html">
+                    <img src="files/css.png" alt="css">
+                    <img src="files/js.webp" alt="js">
+                    <img src="files/postgres.png" alt="postgres">
+                </div>
+                <div dir="rtl" class="codediv">
+                  <a target="_blank"  href="https://github.com/meedax77/ejar" class="code">Github</a>
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="section3">
+        <div class="proj">
+
+            <div class="imgdiv">
+                <img src="files/ghaith.png" alt="ghaith">
+            </div>
+
+            <div class="textdiv">
+                <h1>  Ghaith alshifa Medical complix webapp</h1>
+                <p>The Ghaith Alshifa Medical WebApp is a user-friendly platform allowing visitors to access comprehensive details about the clinic, make appointments with doctors, and view clinic information. The appointment system notifies the reception for coordination. Employees can sign in to access and manage their documents. This integrated solution enhances patient experience and streamlines internal operations for medical professionals.
+                </p>
+                <div class="tools">
+                    <img src="files/PYTHON.png" alt="PYTHON">
+                    <img src="files/django-logo-negative.png" alt="django">
+                    <img src="files/html.png" alt="html">
+                    <img src="files/css.png" alt="css">
+                    <img src="files/js.webp" alt="js">
+                    <img src="files/postgres.png" alt="postgres">
+                </div>
+                <div dir="rtl" class="codediv">
+                  <a target="_blank" href="https://github.com/meedax77/Ghaith" class="code">Github</a>
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+      </div>
+    
+
+      <div class="section3">
+        <div class="proj">
+
+            <div class="imgdiv">
+                <img src="files/logo.png" alt="ghaith">
+            </div>
+
+            <div class="textdiv">
+                <h1> Portfolio</h1>
+                <p>This Website you currently in</p>
+                <div class="tools">
+
+                    <img src="files/html.png" alt="html">
+                    <img src="files/css.png" alt="css">
+                    <img src="files/js.webp" alt="js">
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+      </div>
+      
+  </div>
+
+<div class="branches">
+
+  <div class="headtext headtext2">
+    <p class="theheadtext">Projects</p>
+    <p class="self thesecondtext">Every Project is linked to the website or to the github page</p>
+    </div>
+
+        <div class="aboutdiv aboutdiv1">
+
+            <div class="imgdiv">
+                <img src="files/small-logo.png" alt="">
+            </div>
+
+            <div class="textdiv">
+                <h1>Realestate Mangment System</h1>
+                <p>The Real Estate Management System (REMS) is a user-friendly web application designed for efficient real estate property management. With secure user authentication and role-based access, REMS enables users to manage customers, buildings, units, and contracts seamlessly. The system supports CRUD operations for easy addition, modification, and deletion of records, ensuring an up-to-date and dynamic database. Key features include transaction history tracking, reporting tools, notification alerts, and robust security measures. REMS is a comprehensive solution for real estate professionals, providing transparency, analytics, and streamlined operations throughout the entire real estate transaction lifecycle.</p>
+                <div class="tools">
+                    <img src="files/PYTHON.png" alt="PYTHON">
+                    <img src="files/django-logo-negative.png" alt="django">
+                    <img src="files/html.png" alt="html">
+                    <img src="files/css.png" alt="css">
+                    <img src="files/js.webp" alt="js">
+                    <img src="files/postgres.png" alt="postgres">
+                </div>
+
+                
+            </div>
+            
+            <div class="codediv">
+              <a target="_blank"  href="https://github.com/meedax77/ejar" class="code">Github</a>
+            </div>
+
+
+      </div>
+
+
+
+      <div class="aboutdiv aboutdiv1">
+
+        <div class="imgdiv">
+          <img src="files/ghaith.png" alt="ghaith">
+      </div>
+
+      <div class="textdiv">
+        <h1>  Ghaith alshifa Medical complix webapp</h1>
+        <p>The Ghaith Alshifa Medical WebApp is a user-friendly platform allowing visitors to access comprehensive details about the clinic, make appointments with doctors, and view clinic information. The appointment system notifies the reception for coordination. Employees can sign in to access and manage their documents. This integrated solution enhances patient experience and streamlines internal operations for medical professionals.
+        </p>
+        <div class="tools">
+            <img src="files/PYTHON.png" alt="PYTHON">
+            <img src="files/django-logo-negative.png" alt="django">
+            <img src="files/html.png" alt="html">
+            <img src="files/css.png" alt="css">
+            <img src="files/js.webp" alt="js">
+            <img src="files/postgres.png" alt="postgres">
+        </div>
+        
+        
+    </div>
+        
+    <div dir="rtl" class="codediv">
+      <a target="_blank" href="https://github.com/meedax77/Ghaith" class="code">Github</a>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="aboutdiv aboutdiv1">
+
+    <div class="imgdiv">
+      <img src="files/logo.png" alt="ghaith">
+  </div>
+
+  <div class="textdiv">
+    <h1> Portfolio</h1>
+    <p>This Website you currently in</p>
+    <div class="tools">
+
+        <img src="files/html.png" alt="html">
+        <img src="files/css.png" alt="css">
+        <img src="files/js.webp" alt="js">
+    </div>
+    
+</div>
+    
+
+
+
+</div>
+
+
+    
+
+    
+
+</div>
+
+
+    <footer>
+      <p>© All rights reserved by <a href="index.html">rayansily</a></p>
+  </footer>
+</div>
+</body>
+
+<script src="script.js"></script>
+
+

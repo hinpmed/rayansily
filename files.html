@@ -1,0 +1,187 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="meeda">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rayan Suliman</title>
+<meta name="description" content="  Rayan Suliman CV's"/>
+<link rel="icon" type="" href="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="timeline.css">
+<link rel="icon" type="image/png" href="files/logo.png">
+
+
+  <!-- Modify the following script for coloring the selected menu item -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all menu items
+      const menuItems = document.querySelectorAll('.menu a');
+  
+      // Add click event listener to each menu item
+      menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+          // Remove 'active' class from all menu items
+          menuItems.forEach(item => {
+            item.classList.remove('active');
+          });
+  
+          // Add 'active' class to the clicked menu item
+          this.classList.add('active');
+        });
+      });
+  
+      // Set the initial active menu item based on the current page
+      const path = window.location.pathname;
+      const currentPage = path.substring(path.lastIndexOf('/') + 1);
+      
+      menuItems.forEach(item => {
+        const href = item.getAttribute('href');
+        if (currentPage === href || (currentPage === "" && href === "index.html")) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="black-overlay">
+
+    <header class="head">
+        <a href="index.html"><img src="files/logo.png" alt="logo"></a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="letstalk">Let's talk</a>
+
+      </header>
+
+
+  <div class="sections">
+
+    <div class="headtext">
+    <p>My <span>Files</span>  </p>
+    </div>
+    
+
+
+      <div class="section3">
+        <div class="edu1">
+            <img class="icon2" src="files/icon2.png" alt="">
+            <div class="morediv addpadding">
+              <div class="thetwotext " ">
+                <p>Cv <br> in <span>English</span> </p>
+              </div>
+              
+
+            </div>
+            <div dir="rtl" class="codediv">
+                <a target="_blank"  href="files/CV.pdf" class="code">Download</a>
+              </div>
+      
+          </div>
+
+          <div class="edu1">
+            <img class="icon2" src="files/icon2.png" alt="">
+            <div class="morediv addpadding">
+              <div class="thetwotext " ">
+                <p>السيرة<br> الذاتية <span>بالعربي</span> </p>
+              </div>
+
+            </div>
+            <div style="padding-bottom: 10em;"  dir="rtl" class="codediv">
+                <a target="_blank"   href="files/سيرة ذاتية.pdf" class="code">تحميل</a>
+              </div>
+  
+      
+          </div>
+
+          
+      
+  </div>
+
+<div class="download">
+    <div  style="padding-bottom: 10em;"   class="codediv">
+        <a target="_blank"   href="files/cer.pdf" class="code">Download certificates</a>
+      </div>
+</div>
+
+
+
+</div>
+
+<div class="branches">
+  <div class="headtext">
+    <p>My <span>Files</span>  </p>
+    </div>
+    
+
+
+
+
+
+  <div>
+    <div class="edu">
+      <img class="icon2" src="files/icon2.png" alt="">
+      <div class="morediv addpadding">
+        <div class="thetwotext " ">
+          <p>Cv <br> in <span>English</span> </p>
+        </div>
+        <div class="morebuttondiv" style="padding-top: 30px;">
+          <a style="margin-right: 65PX;" class="morebutton paddingclass" href="files/CV.pdf"><img src="files/icon.svg" alt=""></a>
+        </div>
+      </div>
+
+
+    </div>
+</div>
+
+
+
+<div>
+  <div class="edu">
+    <img class="icon2" src="files/icon2.png" alt="">
+    <div class="morediv addpadding">
+      <div class="thetwotext " ">
+        <p>السيرة<br> الذاتية <span>بالعربي</span> </p>
+      </div>
+      <div class="morebuttondiv" style="padding-top: 30px;">
+        <a style="margin-right: 65PX;" class="morebutton paddingclass" href="files/سيرة ذاتية.pdf"><img src="files/icon.svg" alt=""></a>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+<div class="download">
+    <div  style="padding-bottom: 2em;"   class="codediv">
+        <a target="_blank"   href="files/cer.pdf" class="code">Download certificates</a>
+      </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<footer>
+<p>© All rights reserved by <a href="index.html">rayansily</a></p>
+</footer>
+</body>
+
+<script src="script.js"></script>
+
+
