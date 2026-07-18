@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rayan Suliman - Full-Stack Developer & Designer</title>
-    <meta name="description" content="Rayan Suliman - Full-Stack Web Developer and Designer based in Medina, Saudi Arabia">
+    <title>Rayan Suliman - Full-Stack Developer & Marketing Lead</title>
+    <meta name="description" content="Rayan Suliman - Full-Stack Web Developer and Marketing specialist based in Medina, Saudi Arabia">
     <link rel="icon" type="image/png" href="files/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,16 +14,17 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-text">RS</span>
+                <span class="logo-text">Rayan</span><span class="logo-dot">.</span>
             </a>
             <div class="nav-links">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#work" class="nav-link">Work</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="works.html" class="nav-link">Work</a>
+                <a href="files.html" class="nav-link">Files</a>
+                <a href="contact.html" class="nav-link">Contact</a>
             </div>
-            <a href="#contact" class="cta-button">Let's Talk</a>
-            <button class="mobile-menu-toggle">
+            <a href="contact.html" class="btn btn-solid btn-sm">Let's talk</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -31,297 +32,146 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <div class="eyebrow">Full-Stack Developer & Designer (Marketing)</div>
-                <h1 class="hero-title">
-                    <span class="title-line">Hi, I'm</span>
-                    <span class="title-line highlight">Rayan Suliman</span>
-                </h1>
-                <p class="hero-description">
-                    Multi-skilled professional born and raised in Madinah, Saudi Arabia, with strong 
-                    experience in programming, AI, and marketing across for-profit and non-profit sectors. 
-                    Proven ability to build projects from concept to launch and drive measurable results 
-                    through effective strategy and execution. Currently pursuing Master's in Artificial Intelligence.
-                </p>
-                <div class="hero-cta">
-                    <a href="#work" class="primary-btn">View My Work</a>
-                    <a href="#contact" class="secondary-btn">Get in Touch</a>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <span class="eyebrow">Full-Stack Developer &amp; Designer (Marketing)</span>
+            <div class="hero-headline">
+                <span class="hero-line hero-line-solid">Web Developer</span>
+                <div class="hero-photo-wrap">
+                    <img src="files/portrait.jpg" alt="Rayan Suliman" onerror="this.classList.add('hero-photo-missing')">
                 </div>
+                <span class="hero-line hero-line-outline">&amp; Marketer</span>
             </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-number">8+</div>
-                    <div class="stat-label">Years Experience</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">20+</div>
-                    <div class="stat-label">Projects Completed</div>
-                </div>
+            <p class="hero-sub">Born and raised in Madinah, Saudi Arabia. Currently pursuing a Master's in Artificial Intelligence.</p>
+            <div class="hero-cta">
+                <a href="works.html" class="btn btn-solid">You need a developer</a>
+                <a href="contact.html" class="btn btn-outline">You need a marketer</a>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <span>Scroll Down</span>
-            <div class="scroll-arrow"></div>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-eyebrow">Get to Know Me</span>
-                <h2 class="section-title">About Me</h2>
-            </div>
-            
-            <div class="about-grid">
-                <div class="about-content">
-                    <div class="about-text">
-                        <p class="lead-text">
-                            Multi-skilled professional with strong experience in programming, AI, and marketing 
-                            across for-profit and non-profit sectors.
-                        </p>
-                        <p>
-                            Born and raised in the historic city of Madinah, Saudi Arabia, I have proven ability 
-                            to build projects from concept to launch and drive measurable results through effective 
-                            strategy and execution. My professional journey spans development, design, marketing, 
-                            and leadership roles.
-                        </p>
-                        <p>
-                            Currently pursuing my Master's in Artificial Intelligence at Midocean University while 
-                            working as a Developer, Marketing specialist, and Team Leader at HINP-EMAAR Charity.
-                        </p>
-                    </div>
-                    
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <i class="fab fa-python skill-icon"></i>
-                            <h3>Backend Development</h3>
-                            <p>Python, Django, Database Design</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-code skill-icon"></i>
-                            <h3>Frontend Development</h3>
-                            <p>HTML, CSS, JavaScript, Responsive Design</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-palette skill-icon"></i>
-                            <h3>Design</h3>
-                            <p>Photoshop, Canva, UI/UX Design</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-database skill-icon"></i>
-                            <h3>Database</h3>
-                            <p>PostgreSQL, Data Modeling</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-bullhorn skill-icon"></i>
-                            <h3>Marketing</h3>
-                            <p>Digital Marketing, Strategy, Campaign Management</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-brain skill-icon"></i>
-                            <h3>AI & Machine Learning</h3>
-                            <p>Artificial Intelligence, Data Science</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-details">
-                    <div class="detail-card">
-                        <h3>Personal Info</h3>
-                        <ul class="info-list">
-                            <li>
-                                <span class="info-label">Location:</span>
-                                <span class="info-value">Medina, Saudi Arabia</span>
-                            </li>
-                            <li>
-                                <span class="info-label">Languages:</span>
-                                <span class="info-value">English & Arabic (Fluent)</span>
-                            </li>
-                            <li>
-                                <span class="info-label">Email:</span>
-                                <span class="info-value">contact@rayansily.com</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="detail-card">
-                        <h3>Experience</h3>
-                        <div class="timeline-item">
-                            <div class="timeline-date">04/2025 - Present</div>
-                            <div class="timeline-content">
-                                <h4>Developer</h4>
-                                <p>HINP-EMAAR Charity</p>
-                                <ul class="role-list">
-                                    <li>Developer</li>
-                                    <li>Marketing</li>
-                                    <li>IT</li>
-                                    <li>Team Leader</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">06/2022 - 03/2025</div>
-                            <div class="timeline-content">
-                                <h4>IT-Marketing Designer</h4>
-                                <p>Ghaith Alshifa Medical Co.</p>
-                                <ul class="role-list">
-                                    <li>IT</li>
-                                    <li>Marketing</li>
-                                    <li>Designer</li>
-                                    <li>Management</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">10/2019 - 12/2021</div>
-                            <div class="timeline-content">
-                                <h4>General Supervisor</h4>
-                                <p>Green Grove Soil Factory</p>
-                                <p class="role-description">Administrative tasks, human resources, IT tasks, accounting, marketing and design, official transactions.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">10/2017 - 09/2019</div>
-                            <div class="timeline-content">
-                                <h4>General Supervisor</h4>
-                                <p>Safeer Almutajirah</p>
-                                <p class="role-description">Administrative tasks, Accounting tasks, IT tasks.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="detail-card">
-                        <h3>Education</h3>
-                        <div class="education-item">
-                            <h4>Master of Artificial Intelligence</h4>
-                            <p>Midocean University</p>
-                            <span class="edu-date">Remaining 1 term to graduate</span>
-                        </div>
-                        <div class="education-item" style="margin-top: 1.5rem;">
-                            <h4>Bachelor in IT</h4>
-                            <p>Saudi Electronic University</p>
-                            <span class="edu-date">2025</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="tech-strip">
+            <div class="container tech-strip-inner">
+                <img src="files/PYTHON.png" alt="Python">
+                <img src="files/django-logo-negative.png" alt="Django">
+                <img src="files/postgres.png" alt="PostgreSQL">
+                <img src="files/js.webp" alt="JavaScript">
+                <img src="files/html.png" alt="HTML">
+                <img src="files/css.png" alt="CSS">
             </div>
         </div>
     </section>
 
-    <!-- Work Section -->
-    <section id="work" class="work-section">
+    <!-- Intro Statement -->
+    <section class="intro-section">
         <div class="container">
-            <div class="section-header">
-                <span class="section-eyebrow">Portfolio</span>
-                <h2 class="section-title">Featured Projects</h2>
+            <span class="eyebrow">Why work with me</span>
+            <p class="intro-statement">You need a website and a strategy that actually convert.</p>
+            <p class="intro-text">
+                Multi-skilled professional with strong experience in programming, AI, and marketing across
+                for-profit and non-profit sectors. I help you solve visibility and growth challenges by building
+                custom systems, digital strategies, and campaigns that drive measurable results &mdash; from
+                concept to launch.
+            </p>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <span>Full-Stack Development</span>
+            <span>Marketing</span>
+            <span>Artificial Intelligence</span>
+            <span>Leadership</span>
+            <span>Design</span>
+            <span>Full-Stack Development</span>
+            <span>Marketing</span>
+            <span>Artificial Intelligence</span>
+            <span>Leadership</span>
+            <span>Design</span>
+        </div>
+    </div>
+
+    <!-- Featured Projects -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="featured-header">
+                <div>
+                    <span class="eyebrow">Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <a href="works.html" class="btn btn-outline btn-sm">See all work</a>
             </div>
 
             <div class="projects-grid">
-                <!-- Project 1 - HIS System -->
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-hospital" style="font-size: 4rem; color: var(--primary);"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <span class="project-link current-site">HIS System</span>
-                        </div>
+                        <i class="fas fa-hospital"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Hospital Information System (HIS)</h3>
+                        <h3 class="project-title">Hospital Information System</h3>
                         <p class="project-description">
-                            Comprehensive hospital management system for patient records, appointments, 
-                            billing, and medical data management with secure authentication and real-time updates.
+                            Hospital management system for patient records, appointments, billing, and medical
+                            data with secure authentication and real-time updates.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Django</span>
                             <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">JavaScript</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 - Real Estate -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="files/small-logo.png" alt="Real Estate Management System">
-                        <div class="project-overlay">
-                            <a href="https://github.com/meedax77/ejar" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Real Estate Management System</h3>
+                        <h3 class="project-title">Real Estate Management</h3>
                         <p class="project-description">
-                            A comprehensive web application for efficient property management with 
-                            secure authentication, CRUD operations, and transaction tracking.
+                            Web application for property management with secure authentication, CRUD operations,
+                            and transaction tracking.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Django</span>
-                            <span class="tech-tag">PostgreSQL</span>
                             <span class="tech-tag">JavaScript</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3 - Non-Profit System -->
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-hands-helping" style="font-size: 4rem; color: var(--secondary);"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <span class="project-link current-site">Non-Profit System</span>
-                        </div>
+                        <i class="fas fa-hands-helping"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Non-Profit Management System</h3>
+                        <h3 class="project-title">Non-Profit Management</h3>
                         <p class="project-description">
-                            Complete solution for non-profit organizations to manage donations, volunteers, 
-                            campaigns, and beneficiaries with reporting and analytics capabilities.
+                            Complete solution for non-profits to manage donations, volunteers, campaigns, and
+                            beneficiaries with reporting and analytics.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Django</span>
-                            <span class="tech-tag">PostgreSQL</span>
                             <span class="tech-tag">HTML/CSS</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 4 - Optics System -->
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-glasses" style="font-size: 4rem; color: var(--accent);"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <span class="project-link current-site">Optics System</span>
-                        </div>
+                        <i class="fas fa-glasses"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Optics Store Management System</h3>
+                        <h3 class="project-title">Optics Store Management</h3>
                         <p class="project-description">
-                            Point-of-sale and inventory management system for optical stores with 
-                            prescription tracking, customer management, and sales analytics.
+                            Point-of-sale and inventory system for optical stores with prescription tracking and
+                            sales analytics.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Django</span>
                             <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">JavaScript</span>
                         </div>
                     </div>
                 </div>
@@ -329,71 +179,60 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <!-- Services -->
+    <section class="services-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">Get in Touch</span>
-                <h2 class="section-title">Let's Work Together</h2>
+                <span class="eyebrow">What I do</span>
+                <h2 class="section-title">Four ways I can help</h2>
             </div>
 
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <p class="contact-intro">
-                        Have a project in mind? Let's discuss how we can work together 
-                        to bring your ideas to life.
-                    </p>
-                    
-                    <div class="contact-methods">
-                        <a href="mailto:contact@rayansily.com" class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Email</h4>
-                                <p>contact@rayansily.com</p>
-                            </div>
-                        </a>
-
-                        <a href="https://wa.me/+966581287867" target="_blank" class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>WhatsApp</h4>
-                                <p>+966 58 128 7867</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="resume-download">
-                        <a href="files/CV.pdf" target="_blank" class="download-btn">
-                            <i class="fas fa-download"></i>
-                            Download Resume
-                        </a>
-                    </div>
+            <div class="service-row">
+                <span class="service-label">Development</span>
+                <div>
+                    <h3 class="service-title">Full-stack systems built to run your business</h3>
+                    <p class="service-text">Custom web applications with Python, Django, PostgreSQL, and clean
+                        front-end work &mdash; from hospital and real estate systems to non-profit platforms.</p>
                 </div>
+            </div>
 
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" required>
-                            <label for="name">Your Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" required>
-                            <label for="email">Your Email</label>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                            <label for="message">Your Message</label>
-                        </div>
-                        <button type="submit" class="submit-btn">
-                            Send Message
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+            <div class="service-row">
+                <span class="service-label">Marketing</span>
+                <div>
+                    <h3 class="service-title">Marketing that turns visibility into revenue</h3>
+                    <p class="service-text">Digital marketing, strategy, and campaign management across
+                        for-profit and non-profit sectors, built around measurable results.</p>
                 </div>
+            </div>
+
+            <div class="service-row">
+                <span class="service-label">AI &amp; Data</span>
+                <div>
+                    <h3 class="service-title">Practical AI, not the hype</h3>
+                    <p class="service-text">Currently pursuing a Master's in Artificial Intelligence, applying
+                        data-driven thinking to real products and real problems.</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <span class="service-label">Leadership</span>
+                <div>
+                    <h3 class="service-title">From execution to leading teams</h3>
+                    <p class="service-text">Team Leader at HINP-EMAAR Charity and General Supervisor roles
+                        before that &mdash; comfortable owning a project end to end.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <span class="eyebrow">Get in touch</span>
+            <h2 class="section-title">Let's build something great.</h2>
+            <div class="hero-cta">
+                <a href="contact.html" class="btn btn-solid">Start a project</a>
+                <a href="files.html" class="btn btn-outline">Download resume</a>
             </div>
         </div>
     </section>
@@ -403,14 +242,20 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="logo-text">RS</span>
+                    <span class="logo-text">Rayan</span><span class="logo-dot">.</span>
                     <p>Building the future, one line of code at a time.</p>
                 </div>
                 <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#work">Work</a>
-                    <a href="#contact">Contact</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="works.html">Work</a>
+                    <a href="files.html">Files</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.youtube.com/@meedameedax" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@meedameedaa" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/meedameedai/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">

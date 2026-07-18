@@ -1,129 +1,131 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="author" content="meeda">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Rayan Suliman</title>
-<meta name="description" content="  Rayan Suliman CV's"/>
-<link rel="icon" type="" href="">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="about.css">
-<link rel="stylesheet" href="timeline.css">
-<link rel="icon" type="image/png" href="files/logo.png">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-
-  <!-- Modify the following script for coloring the selected menu item -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Get all menu items
-      const menuItems = document.querySelectorAll('.menu a');
-  
-      // Add click event listener to each menu item
-      menuItems.forEach(item => {
-        item.addEventListener('click', function () {
-          // Remove 'active' class from all menu items
-          menuItems.forEach(item => {
-            item.classList.remove('active');
-          });
-  
-          // Add 'active' class to the clicked menu item
-          this.classList.add('active');
-        });
-      });
-  
-      // Set the initial active menu item based on the current page
-      const path = window.location.pathname;
-      const currentPage = path.substring(path.lastIndexOf('/') + 1);
-      
-      menuItems.forEach(item => {
-        const href = item.getAttribute('href');
-        if (currentPage === href || (currentPage === "" && href === "index.html")) {
-          item.classList.add('active');
-        }
-      });
-    });
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Rayan Suliman</title>
+    <meta name="description" content="Get in touch with Rayan Suliman - Full-Stack Web Developer and Marketing specialist">
+    <link rel="icon" type="image/png" href="files/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-  <div class="black-overlay">
-
-    <header class="head">
-        <a href="index.html"><img src="files/logo.png" alt="logo"></a>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="works.html">Works</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <a href="contact.html" class="letstalk">Let's talk</a>
-
-      </header>
-
-
-  <div class="sections">
-
-    <div class="headtext">
-        <p>Let's Work <span>Togather</span>  </p>
-    </div>
-
-    <div class="contact">
-
-        <div class="contact1">
-            <i class="fa-solid fa-envelope fa-2xl" style="color: #525252;"></i>
-            <h2>loodxloodx@gmail.com</h2>
-            <a target="_blank" class="code" href="mailto:loodxloodx@gmail.com"> email me </a>
-
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Rayan</span><span class="logo-dot">.</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="works.html" class="nav-link">Work</a>
+                <a href="files.html" class="nav-link">Files</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-solid btn-sm">Let's talk</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
+    </nav>
 
-        <div class="contact1">
-            <i class="fa-solid fa-phone fa-2xl" style="color: #525252;"></i>
-            <h2>+966 58 128 7867</h2>
-            <a target="_blank" class="code" href="https://wa.me/+966581287867">Whatsapp</a>
+    <section class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Get in touch</span>
+            <h1 class="page-hero-title">Let's Work <span class="accent-word">Together</span></h1>
         </div>
+    </section>
 
-    </div>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        Have a project in mind? Let's discuss how we can work together to bring your ideas to
+                        life.
+                    </p>
 
+                    <div class="contact-methods">
+                        <a href="mailto:contact@rayansily.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>contact@rayansily.com</p>
+                            </div>
+                        </a>
 
-  </div>
+                        <a href="https://wa.me/+966581287867" target="_blank" rel="noopener" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>+966 58 128 7867</p>
+                            </div>
+                        </a>
+                    </div>
 
+                    <div class="social-row">
+                        <a href="https://www.youtube.com/@meedameedax" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@meedameedaa" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/meedameedai/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
 
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">Rayan</span><span class="logo-dot">.</span>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="works.html">Work</a>
+                    <a href="files.html">Files</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.youtube.com/@meedameedax" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@meedameedaa" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/meedameedai/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rayan Suliman. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-
-  <div class="branches">
-    <div class="headtext letswork1">
-      <p class="letswork">Let's Work <span>Togather</span>  </p>
-  </div>
-
-  <div class="contact">
-
-      <div class="contact1">
-          <i class="fa-solid fa-envelope fa-2xl" style="color: #525252;"></i>
-          <h2>loodxloodx@gmail.com</h2>
-          <a target="_blank" class="code" href="mailto:loodxloodx@gmail.com"> email me </a>
-
-      </div>
-
-      <div class="contact1">
-          <i class="fa-solid fa-phone fa-2xl" style="color: #525252;"></i>
-          <h2>+966 58 128 7867</h2>
-          <a target="_blank" class="code" href="https://wa.me/+966581287867">Whatsapp</a>
-      </div>
-
-  </div>
-  </div>
-    <footer>
-      <p>© All rights reserved by <a href="index.html">rayansily</a></p>
-  </footer>
-</div>
+    <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
-
-
+</html>
